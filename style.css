@@ -1,0 +1,288 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+a, button:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+/*navigation bar styling*/
+
+nav img{
+    height: 40px;
+    max-width: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8683d50f;
+    height: 80px;
+    border-bottom: 1px solid grey;
+}
+
+.gation button{
+    position: relative;
+    top: 15px;
+    margin-right: 20px;
+}
+
+.navi input{
+    height: 30px;
+    width: 300px;
+    margin-right: 15px;
+}
+
+.navi img{
+    position: relative;
+    top: 15px;
+    margin-right: 15px;
+}
+
+.navi button{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+
+/*sidebar*/
+
+aside{
+    float: left;
+    display: inline;
+    padding: 30px;
+    height: 1000px;
+    border-right: 1px solid grey;
+}
+
+aside h3{
+    margin-top: 20px;
+}
+
+aside button{
+    background-color: lightgreen;
+    position: relative;
+    bottom: 20px;
+}
+
+aside input{
+    width: 200px;
+    float: left;
+    margin: 15px 0;
+}
+
+aside li{
+    padding: 5px;
+    list-style: none;
+}
+
+/*main title*/
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main img{
+    width: 50px;
+    height: 50px;
+}
+
+.main{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    margin-top: 20px;
+}
+
+.item button{
+    margin-left: 30px;
+    position: relative;
+    bottom: 20px;
+}
+
+.item a{
+    padding-top: 40px;
+}
+
+/*right sidebar*/
+
+.change {
+    float: right;
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.change li{
+    padding: 5px;
+}
+
+/*main page- repository*/
+
+.repo{
+    width: 40%;
+    border: 1px solid grey;
+    padding: 30px;
+    position: relative;
+    left: 15px;
+}
+
+#name{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.repo button, .readme button {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+/*main page- readme*/
+
+.readme{
+    width: 40%;
+    border: 1px solid grey;
+    position: relative;
+    left: 50px;
+    padding: 25px;
+}
+
+.readme input{
+    width: 200px;
+    height: 25px;
+}
+
+.line{
+    display: flex;
+}
+
+/* main part 2- trending*/
+
+.trend img, .explore img, .exp img{
+    height: 20px;
+    width: 20px;
+}
+
+.trend h4{
+    color: grey;
+    margin-right: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.trend {
+    width: 53.5%;
+    display: inline-flex;
+    border: 1px solid grey;
+    margin: 15px 0 0 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.trend a{
+    margin-right: 460px;
+    position: relative;
+    bottom: 10px;
+}
+
+.trend h5{
+    padding: 10px;
+}
+
+.trend p{
+    margin-right: 10px; 
+}
+
+#trendi {
+    margin-top: 0;
+}
+
+/*main part 2- side*/
+
+.two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.explore{
+    width: 30%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    margin-left: 30px;
+    padding: 20px 0 0 20px;
+    position: relative;
+    bottom: 220px;
+}
+
+#yo, #aye {
+    margin-right: 90px;
+}
+
+.explore p, .exp p{
+    margin-right: 40px;
+}
+
+.exp{
+    width: 30%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    margin-left: 30px;
+    padding: 20px 0 0 20px;
+    position: relative;
+    left: 712.5px;
+    bottom: 220px;
+}
+
+.exp h4, .exp p{
+    margin-bottom: 20px;
+}
+
+/*Footer*/
+
+footer img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+footer{
+    width: 900px;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: grey;
+}
+
+.cat{
+    display: inline-flex;
+}
+
+.terms ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.terms li{
+    margin-right: 15px;
+}
+
+
+
